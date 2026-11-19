@@ -1,0 +1,9 @@
+# Keep test captures (lecture screenshots, backups), local tooling and the unused AI server out of the Vercel upload.
+test-results
+playwright-report
+graphify-out
+tests
+server
+dist
+*.pdf
+.env

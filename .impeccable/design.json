@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T17:48:56.9551287Z",
+  "title": "Design System: MediMate",
+  "extensions": {
+    "motion": [
+      {
+        "name": "control-hover",
+        "value": "background 0.15s",
+        "purpose": "Quiet control feedback; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "760px"
+      },
+      {
+        "name": "compact-laptop",
+        "value": "1100px"
+      },
+      {
+        "name": "wide",
+        "value": "1400px"
+      }
+    ]
+  },
+  "components": [],
+  "narrative": {
+    "northStar": "Calm notebook workspace",
+    "overview": "Warm paper and plum actions support focused, private study. Quiet dividers separate lists and serif questions lead each session.",
+    "keyCharacteristics": [
+      "Paper surfaces",
+      "Plum actions",
+      "Explicit source status",
+      "Responsive task layouts"
+    ],
+    "rules": [
+      {
+        "name": "Status has words",
+        "body": "Pair status colors with explicit text labels.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Keep focus indicators visible.",
+      "Keep source excerpts readable.",
+      "Collapse task layouts to one column on phones."
+    ],
+    "donts": [
+      "Do not imply medical correctness from extraction success.",
+      "Do not spread the dashboard note's decorative shadow to working panels."
+    ]
+  }
+}
